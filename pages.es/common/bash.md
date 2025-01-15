@@ -1,12 +1,16 @@
 # bash
 
-> Bourne-Again SHell.
-> Intérprete de línea de comandos compatible con `sh`.
-> Más información: <https://gnu.org/software/bash/>.
+> Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`.
+> Vea también: `zsh`; `histexpand`, para expansión de historial de comandos.
+> Más información: <https://www.gnu.org/software/bash/>.
 
 - Inicia un intérprete de comandos interactivo:
 
 `bash`
+
+- Inicia el intérprete sin leer archivos de configuración:
+
+`bash --norc`
 
 - Ejecuta un comando:
 
@@ -24,10 +28,10 @@
 
 `bash -e {{archivo.sh}}`
 
-- Ejecuta comandos desde stdin (entrada estándar):
+- Ejecuta comandos desde `stdin` (entrada estándar):
 
-`bash -s`
+`{{echo "echo 'bash es ejecutado'"}} | bash`
 
-- Imprime la información de la versión de bash (use `echo $BASH_VERSION` para ver sólo la versión sin la información sobre la licencia):
+- Inicia el intérprete [r]estringido:
 
-`bash --version`
+`bash -r`

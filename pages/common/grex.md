@@ -1,11 +1,11 @@
 # grex
 
-> Simple command-line tool to generate regular expressions.
+> Generate regular expressions.
 > More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:
 
-` grex {{space_separated_strings}}`
+`grex {{space_separated_strings}}`
 
 - Generate a case-insensitive regular expression:
 

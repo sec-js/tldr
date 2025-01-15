@@ -1,6 +1,6 @@
 # clj
 
-> Clojure tool to start a REPL or invoke a specific function with data.
+> Clojure tool to start a REPL or invoke a function with data.
 > All options can be defined in a `deps.edn` file.
 > More information: <https://clojure.org/guides/deps_and_cli>.
 
@@ -16,7 +16,7 @@
 
 `clj -M -m {{namespace}} {{args}}`
 
-- Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
+- Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths:
 
 `clj -P`
 

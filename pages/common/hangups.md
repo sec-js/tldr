@@ -3,11 +3,11 @@
 > Third party command-line client for Google Hangouts.
 > More information: <https://github.com/tdryer/hangups>.
 
-- Start hangups:
+- Start `hangups`:
 
 `hangups`
 
-- View troubleshooting information and help:
+- Display troubleshooting information and help:
 
 `hangups -h`
 

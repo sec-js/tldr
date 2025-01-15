@@ -1,8 +1,8 @@
 # pacman
 
 > Arch Linux Paket Management Tool.
-> Siehe auch: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
+> Siehe auch: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+> Weitere Informationen: <https://manned.org/pacman.8>.
 
 - Synchronisiere und aktualisiere alle Pakete:
 
@@ -10,15 +10,11 @@
 
 - Installiere ein neues Paket:
 
-`sudo pacman -S {{paketname}}`
+`sudo pacman -S {{paket}}`
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
-`sudo pacman -Rs {{paketname}}`
-
-- Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
-
-`pacman -Ss "{{suchmuster}}"`
+`sudo pacman -Rs {{paket}}`
 
 - Liste alle installierten Pakete und dessen Versionen auf:
 

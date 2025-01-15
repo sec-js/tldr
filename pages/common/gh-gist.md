@@ -1,9 +1,9 @@
 # gh gist
 
-> Work with GitHub Gists on the command-line.
+> Work with GitHub Gists.
 > More information: <https://cli.github.com/manual/gh_gist>.
 
-- Create a new Gist from a space-separated list of files:
+- Create a new Gist from one or more files:
 
 `gh gist create {{path/to/file1 path/to/file2 ...}}`
 

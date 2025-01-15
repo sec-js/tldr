@@ -1,7 +1,7 @@
 # minikube
 
-> Tool to run Kubernetes locally.
-> More information: <https://github.com/kubernetes/minikube>.
+> Run Kubernetes locally.
+> More information: <https://minikube.sigs.k8s.io/docs/>.
 
 - Start the cluster:
 
@@ -26,3 +26,7 @@
 - Delete the cluster:
 
 `minikube delete`
+
+- Connect to LoadBalancer services:
+
+`minikube tunnel`

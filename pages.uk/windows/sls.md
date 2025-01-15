@@ -1,8 +1,7 @@
 # sls
 
-> Ця команда є псевдонімом для `where-object`.
-> Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> Ця команда є псевдонімом для `Select-String`.
 
 - Дивись документацію для оригінальної команди:
 
-`tldr where-object`
+`tldr select-string`

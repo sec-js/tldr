@@ -1,37 +1,37 @@
 # bash
 
-> Bourne-Again SHell.
-> 兼容`sh`的命令行解释器。
-> 更多信息：<https://gnu.org/software/bash/>.
+> Bourne-Again SHell，兼容 `sh` 的命令行解释器。
+> 此外请参阅：`zsh`，`histexpand`（历史展开）。
+> 更多信息：<https://www.gnu.org/software/bash/>.
 
 - 启动交互式 shell：
 
 `bash`
 
+- 启动一个不加载启动配置的交互式的 shell 会话：
+
+`bash --norc`
+
 - 执行命令：
 
-`bash -c "{{command}}"`
+`bash -c "{{echo '已执行bash命令'}}"`
 
 - 执行脚本文件：
 
-`bash {{file.sh}}`
+`bash {{路径/到/脚本文件.sh}}`
 
 - 执行脚本文件，并将所有执行过的命令输出到终端：
 
-`bash -x {{file.sh}}`
+`bash -x {{路径/到/脚本文件.sh}}`
 
 - 执行脚本文件，并在第一个错误处终止：
 
-`bash -e {{file.sh}}`
+`bash -e {{路径/到/脚本文件.sh}}`
 
-- 从输入（stdin）读取命令：
+- 从 `stdin` 执行指定的命令：
 
-`bash -s`
+`{{echo "echo '已执行bash命令'"}} | bash`
 
-- 将跟随的所有选项原样传递到要执行的脚本文件（可与`-s`选项共用来将选项传递到来自输入的命令 / 脚本）：
+- 启动一个限制的 shell 会话：
 
-`bash --`
-
-- 打印 bash 的版本信息（使用`echo $BASH_VERSION`来获得纯粹的版本字符串）：
-
-`bash --version`
+`bash -r`

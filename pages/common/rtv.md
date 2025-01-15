@@ -14,7 +14,7 @@
 
 - Expand/collapse comments:
 
-`[space]`
+`<Space>`
 
 - Open link:
 
@@ -24,6 +24,6 @@
 
 `u`
 
-- Open the help screen:
+- Display help:
 
 `?`

@@ -1,6 +1,7 @@
 # scoop
 
-> A command-line installer for Windows.
+> The Scoop package manager.
+> Some subcommands such as `bucket` have their own usage documentation.
 > More information: <https://scoop.sh>.
 
 - Install a package:

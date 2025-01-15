@@ -2,7 +2,7 @@
 
 > Öffnet Dateien in einem laufenden Emacs-Server.
 > Siehe auch `emacs`.
-> Weitere Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
+> Weitere Informationen: <https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html>.
 
 - Öffne eine Datei in einem laufenden Emacs-Server (mit GUI wenn möglich):
 
@@ -16,7 +16,7 @@
 
 `emacsclient --create-frame {{pfad/zu/datei}}`
 
-- Führe einen Befehl aus und schreibe das Ergebnis in stdout:
+- Führe einen Befehl aus und schreibe das Ergebnis in `stdout`:
 
 `emacsclient --eval '({{befehl}})'`
 

@@ -1,7 +1,7 @@
 # chgrp
 
 > Change group ownership of files and directories.
-> More information: <https://www.gnu.org/software/coreutils/chgrp>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Change the owner group of a file/directory:
 
@@ -17,4 +17,4 @@
 
 - Change the owner group of a file/directory to match a reference file:
 
-`chgrp --reference={{path/to/reference_file}} {{path/to/file_or_directory}}`
+`chgrp --reference {{path/to/reference_file}} {{path/to/file_or_directory}}`

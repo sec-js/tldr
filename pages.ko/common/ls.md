@@ -1,7 +1,7 @@
 # ls
 
 > 폴더의 내용물을 리스팅합니다.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/ls>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 한줄에 하나의 파일씩 나열:
 
@@ -25,7 +25,7 @@
 
 - 파일의 모든 정보를 크기의 내림차순으로 정렬:
 
-`ls -lS`
+`ls -lSR`
 
 - 파일의 모든 정보를 수정날짜(오래된 순서)로 정렬:
 
@@ -33,4 +33,4 @@
 
 - 폴더만 나열:
 
-`ls -d {{*/}}`
+`ls -d */`

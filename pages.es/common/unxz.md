@@ -1,8 +1,7 @@
 # unxz
 
-> Este comando es un alias de `xz`.
-> Más información: <https://manned.org/unxz>.
+> Este comando es un alias de `xz --decompress`.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr xz`

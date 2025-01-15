@@ -1,7 +1,7 @@
 # date
 
 > Set or display the system date.
-> More information: <https://www.gnu.org/software/coreutils/date>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Display the current date using the default locale's format:
 
@@ -25,7 +25,7 @@
 
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 

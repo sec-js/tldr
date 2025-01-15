@@ -7,6 +7,10 @@
 
 `xset s off`
 
+- Disable the bell sound:
+
+`xset b off`
+
 - Set the screensaver to start after 60 minutes of inactivity:
 
 `xset s 3600 3600`
@@ -18,3 +22,7 @@
 - Enable DPMS (Energy Star) features:
 
 `xset +dpms`
+
+- Query information on any X server:
+
+`xset -display :{{0}} q`

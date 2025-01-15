@@ -2,7 +2,7 @@
 
 > Fourni des informations sur les services du système Android.
 > Cette commande peut être utilisé uniquement depuis `adb shell`.
-> Plus d'informations : <https://developer.android.com/studio/command-line/dumpsys>.
+> Plus d'informations : <https://developer.android.com/tools/dumpsys>.
 
 - Récupère un diagnostic pour chaque service système :
 
@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Spécifie un temps limite en secondes (10s par défault) :
+- Spécifie un temps limite en secondes (10s par défaut) :
 
 `dumpsys -t {{seconds}}`

@@ -5,15 +5,15 @@
 
 - Install a package:
 
-`pip install {{package_name}}`
+`pip install {{package}}`
 
 - Install a specific version of a package:
 
-`pip install {{package_name}}=={{package_version}}`
+`pip install {{package}}=={{version}}`
 
 - Install packages listed in a file:
 
-`pip install --requirement {{path/to/requirements.txt}}`
+`pip install -r {{path/to/requirements.txt}}`
 
 - Install packages from an URL or local file archive (.tar.gz | .whl):
 

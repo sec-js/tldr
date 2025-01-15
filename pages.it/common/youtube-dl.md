@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Scarica video da YouTube ed altri siti web.
-> Maggiori informazioni: <http://rg3.github.io/youtube-dl/>.
+> Maggiori informazioni: <https://rg3.github.io/youtube-dl/>.
 
 - Scarica un video od una playlist:
 
@@ -33,4 +33,4 @@
 
 - Scarica una playlist, ne estrae l'audio e lo salva in formato mp3:
 
-`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url_della_playlist}}'`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url_della_playlist}}'`

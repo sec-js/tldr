@@ -1,7 +1,7 @@
 # gawk
 
-> Este comando é um alias de `-p linux awk`.
+> Este comando é um alias de `awk`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
-`tldr -p linux awk`
+`tldr awk`

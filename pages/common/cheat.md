@@ -1,6 +1,6 @@
 # cheat
 
-> Create and view interactive cheat sheets on the command-line.
+> Create and view interactive cheat sheets.
 > More information: <https://github.com/cheat/cheat>.
 
 - Show example usage of a command:
@@ -19,6 +19,6 @@
 
 `cheat -s {{command}}`
 
-- Get the current cheat version:
+- Display version:
 
 `cheat -v`

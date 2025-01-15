@@ -1,7 +1,7 @@
 # docker login
 
 > Bei einer Docker Registry einloggen.
-> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/login/>.
+> Weitere Informationen: <https://docs.docker.com/reference/cli/docker/login/>.
 
 - Interaktives Einloggen bei einer Registry:
 
@@ -15,6 +15,6 @@
 
 `docker login --username {{benutzername}} --password {{passwort}} {{server}}`
 
-- Einloggen mit einem Passwort, welches von stdin gelesen wird:
+- Einloggen mit einem Passwort, welches von `stdin` gelesen wird:
 
 `echo "{{passwort}}" | docker login --username {{benutzername}} --password-stdin`

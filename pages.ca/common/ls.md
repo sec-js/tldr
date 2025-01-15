@@ -1,7 +1,7 @@
 # ls
 
 > Llista els continguts d'un directori.
-> Més informació: <https://www.gnu.org/software/coreutils/ls>.
+> Més informació: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Llista els fitxers un per línia:
 
@@ -25,7 +25,7 @@
 
 - Llista de format lalrg ordenat per mida (descendent):
 
-`ls -lS`
+`ls -lSR`
 
 - Llista de format llarg de tots els fitxers, organitzat per data de modificació (més antics primer):
 

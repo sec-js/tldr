@@ -3,13 +3,9 @@
 > Dallar ile çalışmak için kullanılan ana Git komutu.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
 
-- Yerel dalları göster. Mevctu dal `*` ile vurgulanır:
-
-`git branch`
-
 - Tüm dalları (yerel ve uzak bağlantıda olan) göster:
 
-`git branch -a`
+`git branch --all`
 
 - Mevcut dalın ismini göster:
 
@@ -25,11 +21,11 @@
 
 - Bir dalı yeniden adlandır:
 
-`git branch -m {{eski_dal_ismi}} {{yeni_dal_ismi}}`
+`git branch {{-m|--move}} {{eski_dal_ismi}} {{yeni_dal_ismi}}`
 
 - Yerel bir dalı sil:
 
-`git branch -d {{dal_ismi}}`
+`git branch {{-d|--delete}} {{dal_ismi}}`
 
 - Uzaktaki bir dalı sil:
 

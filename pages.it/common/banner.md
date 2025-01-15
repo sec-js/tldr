@@ -9,8 +9,8 @@
 
 - Stampa il testo come un banner con una larghezza di 50 caratteri:
 
-`banner -w {{50}} "{{Hello World}}"`
+`banner -w 50 "{{Hello World}}"`
 
-- Leggi testo da stdin:
+- Leggi testo da `stdin`:
 
 `banner`

@@ -3,18 +3,22 @@
 > Listar os conteúdos de um diretório.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Mostrar o conteúdo do diretório atual:
+- Mostra o conteúdo do diretório atual:
 
 `dir`
 
-- Mostrar o conteúdo do diretório no caminho provido pelo usuário:
+- Mostra o conteúdo do diretório no caminho provido pelo usuário:
 
-`dir {{caminho/para/diretório}}`
+`dir {{caminho\para\diretório}}`
 
-- Mostrar o conteúdo do diretório atual, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório atual, incluindo arquivos e pastas ocultas:
 
-`dir /A`
+`dir /a`
 
-- Mostrar o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas ocultas:
 
-`dir {{caminho/para/diretório}} /A`
+`dir {{caminho\para\diretório}} /a`
+
+- Mostra uma lista simples de diretórios e arquivos, sem informações adicionais:
+
+`dir /b`

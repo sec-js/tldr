@@ -1,6 +1,6 @@
 # acme.sh
 
-> Shell script implementing ACME client protocol, an alternative to certbot.
+> Shell script implementing ACME client protocol, an alternative to `certbot`.
 > See also `acme.sh dns`.
 > More information: <https://github.com/acmesh-official/acme.sh>.
 
@@ -30,4 +30,4 @@
 
 - Install certificate files into the specified locations (useful for automatic certificate renewal):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/path/to/example.com.key}} --fullchain-file {{/path/to/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/path/to/example.com.key}} --fullchain-file {{/path/to/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

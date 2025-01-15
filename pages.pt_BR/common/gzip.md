@@ -1,20 +1,32 @@
 # gzip
 
-> Ferramenta de compactação de arquivos com compressão gzip.
+> Compacta/descompacta arquivos com compressão gzip (LZ77).
 > Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
-- Alterar compressão de um arquivo compactado com compressão gzip:
+- Compacta um arquivo, substituindo-o por uma versão compactada gzip:
 
-`gzip {{arquivo.ext}}`
+`gzip {{caminho_para_arquivo}}`
 
-- Descompactar arquivo gzip definindo arquivo final:
+- Descompacta um arquivo, substituindo-o pela versão descompactada original:
 
-`gzip -c -d {{arquivo.ext}}.gz > {{arquivo_descompactado.ext}}`
+`gzip {{-d|--decompress caminho/para/arquivo.gz}}`
 
-- Compactar arquivo definindo arquivo final:
+- Compacta um arquivo, mantendo o arquivo original:
 
-`gzip -c {{arquivo.ext}} > {{arquivo_compactado.ext.gz}}`
+`gzip {{-k|--keep caminho/para/arquivo}}`
 
-- Compactando arquivos em gzip definindo o nível de compressão [9]:
+- Compacta um arquivo definindo o nome do arquivo de saída:
 
-`gzip -{{9}} -c {{arquivo.ext}} > {{arquivo_compactado.ext.gz}}`
+`gzip {{-c|--stdout caminho/para/arquivo}} > {{caminho/para/arquivo_compactado.gz}}`
+
+- Descompacta um arquivo gzip definindo o nome do arquivo de saída:
+
+`gzip {{-c|--stdout}} {{-d|--decompress}} {{caminho/para/arquivo.gz}} > {{caminho/para/arquivo_descompactado}}`
+
+- Especifica o nível de compactação. 1 é o mais rápido (baixa compressão), 9 é o mais lento (baixa compressão), o nível padrão é 6:
+
+`gzip -{{1..9}} {{-c|--stdout}} {{caminho/para/arquivo}} > {{caminho/para/arquivo_compactado.gz}}`
+
+- Mostra o nome e o percentual de redução para cada arquivo comprimido ou descomprimido:
+
+`gzip {{-v|--verbose}} {{-d|--decompress}} {{caminho/para/arquivo.gz}}`

@@ -1,7 +1,7 @@
 # apt-key
 
 > Servizio di gestione delle chiavi per il gestore di pacchetti APT su Debian ed Ubuntu.
-> Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+> Maggiori informazioni: <https://manned.org/apt-key.8>.
 
 - Elenca le chiavi fidate:
 
@@ -19,6 +19,6 @@
 
 `wget -qO - {{https://indirizzo.tld/filename.key}} | apt-key add -`
 
-- Aggiunge una chiave da un server di chiavi con il solo id della chiave:
+- Aggiunge una chiave da un server di chiavi con il solo ID della chiave:
 
 `apt-key adv --keyserver {{pgp.mit.edu}} --recv {{ID_DELLA_CHIAVE}}`

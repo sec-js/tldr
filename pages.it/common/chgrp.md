@@ -1,7 +1,7 @@
 # chgrp
 
 > Cambia il gruppo proprietario di file e directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/chgrp>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Cambia il gruppo proprietario di un file/directory:
 
@@ -17,4 +17,4 @@
 
 - Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 
-`chgrp --reference={{percorso/del/file_riferimento}} {{percorso/del/file}}`
+`chgrp --reference {{percorso/del/file_riferimento}} {{percorso/del/file}}`

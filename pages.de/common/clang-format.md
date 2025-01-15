@@ -3,7 +3,7 @@
 > Programm zum Auto-Formatieren von C/C++/Java/JavaScript/Objective-C/Protobuf/C#-Code.
 > Weitere Informationen: <https://clang.llvm.org/docs/ClangFormat.html>.
 
-- Formatiere eine Datei und schreibe das Ergebnis nach stdout:
+- Formatiere eine Datei und schreibe das Ergebnis nach `stdout`:
 
 `clang-format {{pfad/zu/quelldatei.cpp}}`
 
@@ -13,7 +13,7 @@
 
 - Formatiere eine Datei mit einem bestimmten Code-Stil:
 
-`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} {{pfad/zu/quelldatei.cpp}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} {{pfad/zu/quelldatei.cpp}}`
 
 - Formatiere eine Datei mit der `.clang-format`-Datei aus einem der Überverzeichnisse der Quelldatei:
 
@@ -21,4 +21,4 @@
 
 - Generiere eine eigene `.clang-format`-Datei:
 
-`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
+`clang-format --style {{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`

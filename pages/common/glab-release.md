@@ -1,6 +1,6 @@
 # glab release
 
-> Manage GitLab releases from the command-line.
+> Manage GitLab releases.
 > More information: <https://glab.readthedocs.io/en/latest/release>.
 
 - List releases in a Gitlab repository, limited to 30 items:
@@ -25,4 +25,4 @@
 
 - Upload assets to a specific release:
 
-`glab release upload {{tag}} {{path/to/file1}} {{path/to/file2}}`
+`glab release upload {{tag}} {{path/to/file1 path/to/file2 ...}}`

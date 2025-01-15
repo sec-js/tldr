@@ -1,23 +1,19 @@
 # ssh-keygen
 
-> Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
+> Generiert SSH Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
 > Weitere Informationen: <https://man.openbsd.org/ssh-keygen>.
 
 - Erstelle ein SSH Schlüssel-Paar interaktiv:
 
 `ssh-keygen`
 
-- Erstelle ein Schlüssel-Paar unter einem bestimmten Dateinamen:
+- Generiere ein ed25519 Schlüssel-Paar mit 32 Schlüssel-Ableitungs-Iterationen und speicher unter einem bestimmten Dateinamen:
 
-`ssh-keygen -f {{~/.ssh/datei}}`
-
-- Generiere ein ed25519 Schlüssel-Paar mit 100 Schlüssel-Ableitungs-Iterationen:
-
-`ssh-keygen -t {{ed25519}} -a {{100}}`
+`ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/datei}}`
 
 - Generiere ein 4096 Bit langen RSA Schlüssel-Paar mit der E-Mail im Kommentarfeld:
 
-`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{kommentar|e-mail}}"`
+`ssh-keygen -t {{rsa}} -b {{4096}} -C "{{kommentar|e-mail}}"`
 
 - Entferne den Schlüssel eines Servers aus der `known_hosts` Datei (hilfreich wenn ein Server seinen Schlüssel aktualisiert hat und der alte somit nicht mehr gilt):
 

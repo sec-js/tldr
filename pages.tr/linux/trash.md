@@ -21,11 +21,11 @@
 
 - Çöpü 10 gün öncesinden daha yeni atılan dosyalar hariç boşalt:
 
-`trash-empty {{10}}`
+`trash-empty 10`
 
-- Çöptw 'foo' ismini taşıyan tüm dosyaları sil:
+- Çöpte 'foo' ismini taşıyan tüm dosyaları sil:
 
-`trash-rm foo`
+`trash-rm "foo"`
 
 - Belirtilen konumdaki tüm dosyaları sil:
 

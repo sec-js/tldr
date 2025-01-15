@@ -1,7 +1,7 @@
 # apt-file
 
-> Search for files in apt packages, including ones not yet installed.
-> More information: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Search for files in `apt` packages, including ones not yet installed.
+> More information: <https://manned.org/apt-file.1>.
 
 - Update the metadata database:
 
@@ -13,7 +13,7 @@
 
 - List the contents of a specific package:
 
-`apt-file {{show|list}} {{package_name}}`
+`apt-file {{show|list}} {{package}}`
 
 - Search for packages that match the `regular_expression`:
 

@@ -1,7 +1,7 @@
 # echo
 
 > 输出给定参数。
-> 更多信息：<https://www.gnu.org/software/coreutils/echo>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - 输出文本信息. 注意： 引号是可选的：
 
@@ -22,3 +22,7 @@
 - 启用反斜杠转义的解释（特殊字符）：
 
 `echo -e "{{Column 1\tColumn 2}}"`
+
+- 输出执行的上一条指令的退出状态（注：在 Windows 命令提示符和 PowerShell 中，对应的命令分别是 `echo %errorlevel%` 和 `$lastexitcode`）：
+
+`echo $?`

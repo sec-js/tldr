@@ -15,13 +15,13 @@
 
 `qrcp send --zip {{path/to/file_or_directory}}`
 
-- Specify a [p]ort to use:
+- Use a specific [p]ort:
 
 `qrcp {{send|receive}} --port {{port_number}}`
 
-- Specify the network [i]nterface to use:
+- Use a specific network [i]nterface:
 
-`qrcp {{send|receive}} --interface interface`
+`qrcp {{send|receive}} --interface {{interface}}`
 
 - Keep the server alive:
 

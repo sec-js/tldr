@@ -1,9 +1,9 @@
 # mytop
 
 > Display MySQL server performance info like `top`.
-> More information: <http://jeremy.zawodny.com/mysql/mytop/mytop.html>.
+> More information: <https://jeremy.zawodny.com/mysql/mytop/mytop.html>.
 
-- Start mytop:
+- Start `mytop`:
 
 `mytop`
 

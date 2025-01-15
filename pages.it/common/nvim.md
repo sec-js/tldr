@@ -26,11 +26,11 @@
 
 - Eseguire una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/{{espressione_regolare}}/{{sostituzione}}//g<Enter>`
+`<Esc>:%s/{{espressione_regolare}}/{{sostituzione}}/g<Enter>`
 
 - Salvare (scrivere) il file per poi uscire:
 
-`<Esc>:wq<Enter>`
+`{{<Esc>ZZ|<Esc>:x<Enter>|<Esc>:wq<Enter>}}`
 
 - Uscire senza salvare:
 

@@ -1,7 +1,7 @@
 # ls
 
 > Liste den Inhalt eines Verzeichnisses auf.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/ls>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Liste den Inhalt in einer Datei pro Zeile auf:
 
@@ -25,7 +25,7 @@
 
 - Liste Dateien nach sortiert nach Dateigröße mit größter beginnend auf:
 
-`ls -lS`
+`ls -lSR`
 
 - Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 
@@ -33,4 +33,4 @@
 
 - Liste nur Verzeichnisse auf:
 
-`ls -d {{*/}}`
+`ls -d */`

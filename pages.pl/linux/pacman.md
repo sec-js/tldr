@@ -3,7 +3,7 @@
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
 > Zobacz także: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
-> Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+> Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety:
 
@@ -11,15 +11,15 @@
 
 - Zainstaluj nowy pakiet:
 
-`sudo pacman -S {{nazwa_pakietu}}`
+`sudo pacman -S {{pakiet}}`
 
 - Usuń pakiet i jego zależności:
 
-`sudo pacman -Rs {{nazwa_pakietu}}`
+`sudo pacman -Rs {{pakiet}}`
 
-- Przeszukaj bazę danych pakietów używając wyrażenia regularnego lub słowa klucz:
+- Poszukaj w bazie danych pakietów zawierających podany plik:
 
-`pacman -Ss "{{zapytanie}}"`
+`pacman -F "{{nazwa_pliku}}"`
 
 - Wyświetl zainstalowane pakiety i ich wersje:
 

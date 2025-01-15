@@ -1,8 +1,8 @@
 # docker
 
 > Administra contenedores e imágenes de Docker.
-> Algunos subcomandos, como `docker run`, tienen su propia documentación de uso.
-> Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Algunos subcomandos, como `run`, tienen su propia documentación de uso.
+> Más información: <https://docs.docker.com/reference/cli/docker/>.
 
 - Lista todos los contenedores de Docker (en ejecución y detenidos):
 
@@ -20,11 +20,11 @@
 
 `docker pull {{imagen}}`
 
-- Muestra la lista de imagenes descargadas:
+- Muestra la lista de imágenes descargadas:
 
 `docker images`
 
-- Inicia una línea de Comandos dentro de un contenedor en ejecución:
+- Inicia una línea de comandos dentro de un contenedor en ejecución:
 
 `docker exec -it {{nombre_de_contenedor}} {{sh}}`
 
@@ -32,6 +32,6 @@
 
 `docker rm {{nombre_de_contenedor}}`
 
-- Obtiene y sigue los registros de un contenedor:
+- Obtén y sigue los registros de un contenedor:
 
 `docker logs -f {{nombre_de_contenedor}}`

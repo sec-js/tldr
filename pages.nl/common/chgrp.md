@@ -1,7 +1,7 @@
 # chgrp
 
 > Verander beheerdersgroep van bestanden en mappen.
-> Meer informatie: <https://www.gnu.org/software/coreutils/chgrp>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - Verander beheerdergroep van een bestand of map:
 
@@ -17,4 +17,4 @@
 
 - Verander de beheerdersgroep van een bestand/map naar de permissies van een referentiebestand:
 
-`chgrp --reference={{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`
+`chgrp --reference {{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`

@@ -1,8 +1,8 @@
 # az logout
 
 > Von Azure-Abonnements abmelden.
-> Teil von `azure-cli`.
-> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
+> Teil von `azure-cli` (auch bekannt als `az`).
+> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az-logout>.
 
 - Melde das aktuelle aktive Konto ab:
 

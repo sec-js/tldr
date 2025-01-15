@@ -3,7 +3,7 @@
 > Display dynamic real-time information about running processes.
 > More information: <https://manned.org/top>.
 
-- Start top:
+- Start `top`:
 
 `top`
 
@@ -27,6 +27,6 @@
 
 `top -p $(pgrep -d ',' {{process_name}})`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`

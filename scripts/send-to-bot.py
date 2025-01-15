@@ -7,7 +7,8 @@ import requests
 
 BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
 
-COMMENT_ERROR = """
+COMMENT_ERROR = """<!-- tldr-bot - errors -->
+
 The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
 
 ```
@@ -17,7 +18,8 @@ The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this
 Please fix the error(s) and push again.
 """
 
-COMMENT_CHECK = """
+COMMENT_CHECK = """<!-- tldr-bot - check-results -->
+
 Hello! I've noticed something unusual when checking this PR:
 
 {content}
@@ -28,11 +30,8 @@ Is this intended? If so, just ignore this comment. Otherwise, please double-chec
 ################################################################################
 
 
-def post_comment(pr_id, body, once):
-    endpoint = BOT_URL + "/comment"
-
-    if once:
-        endpoint += "/once"
+def post_comment(pr_id, body):
+    endpoint = f"{BOT_URL}/comment/recreate"
 
     data = {"pr_id": pr_id, "body": body}
 
@@ -62,12 +61,10 @@ def main(action):
 
     if action == "report-errors":
         comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
-        comment_once = False
     elif action == "report-check-results":
         comment_body = COMMENT_CHECK.format(content=content)
-        comment_once = True
 
-    if post_comment(PR_ID, comment_body, comment_once):
+    if post_comment(PR_ID, comment_body):
         print("Success.")
     else:
         print("Error sending data to tldr-bot!", file=sys.stderr)

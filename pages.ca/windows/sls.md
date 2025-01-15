@@ -1,8 +1,7 @@
 # sls
 
-> Aquest comandament és un àlies de `where-object`.
-> Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> Aquest comandament és un àlies de `Select-String`.
 
 - Veure documentació pel comandament original:
 
-`tldr where-object`
+`tldr select-string`

@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Unduh video dari YouTube dan situs web lain.
-> Informasi lebih lanjut: <http://rg3.github.io/youtube-dl/>.
+> Informasi lebih lanjut: <https://rg3.github.io/youtube-dl/>.
 
 - Mengunduh sebuah video atau daftar putar:
 
@@ -33,4 +33,4 @@
 
 - Mengunduh daftar putar dan ekstrak MP3 darinya:
 
-`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url_to_playlist}}`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url_to_playlist}}'`

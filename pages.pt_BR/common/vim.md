@@ -18,11 +18,11 @@
 
 - Salva e sai do arquivo atual:
 
-`:wq<Enter>`
+`{{ZZ|:wq<Enter>}}`
 
 - Entra em modo normal e desfaz a última operação:
 
-`<ESC>u`
+`<Esc>u`
 
 - Procura por um sequência padrão dentro de um arquivo (aperte `n`/`N` para ir para próxima/anterior sequência padrão):
 

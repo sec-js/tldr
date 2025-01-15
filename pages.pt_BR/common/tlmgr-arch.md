@@ -1,8 +1,7 @@
-# tlmgr-arch
+# tlmgr arch
 
-> Este comando é um pseudônimo de `tlmgr platform`.
-> Mais informações: <https://www.tug.org/texlive/tlmgr.html>.
+> Este comando é um apelido de `tlmgr platform`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr tlmgr platform`

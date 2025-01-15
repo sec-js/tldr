@@ -1,13 +1,13 @@
 # pm
 
 > Afficher des informations sur les applications d'un appareil Android.
-> Plus d'informations : <https://developer.android.com/studio/command-line/adb#pm>.
+> Plus d'informations : <https://developer.android.com/tools/adb#pm>.
 
 - Affiche la liste des applications installées :
 
 `pm list packages`
 
-- Affiche une liste de toutes les applications système instalées :
+- Affiche une liste de toutes les applications système installées :
 
 `pm list packages -s`
 

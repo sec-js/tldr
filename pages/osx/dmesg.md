@@ -1,7 +1,7 @@
 # dmesg
 
-> Write the kernel messages to standard output.
-> More information: <https://www.manpagez.com/man/8/dmesg/>.
+> Write the kernel messages to `stdout`.
+> More information: <https://keith.github.io/xcode-man-pages/dmesg.8.html>.
 
 - Show kernel messages:
 

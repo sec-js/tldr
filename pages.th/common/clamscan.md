@@ -1,7 +1,7 @@
 # clamscan
 
 > โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์
-> ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
+> ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>
 
 - แสกนไฟล์หาช่องโหว่ทางความปลอดภัย:
 
@@ -25,7 +25,7 @@
 
 - เขียนผลการแสกนไปยังไฟล์ที่ระบุ:
 
-`clamscan --log {{หนทาง/ไปยัง/ไฟล์ที่ระบุ}`
+`clamscan --log {{หนทาง/ไปยัง/ไฟล์ที่ระบุ}}`
 
 - ย้ายไฟล์ที่พบการติดไวรัสไปยังไดเรคทอรีที่ระบุ:
 

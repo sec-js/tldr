@@ -1,7 +1,7 @@
 # b2sum
 
 > Calcule les sommes de contrôle cryptographiques BLAKE2.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/b2sum-invocation.html>.
 
 - Calcule la somme de contrôle BLAKE2 d'un fichier :
 
@@ -9,9 +9,9 @@
 
 - Calcule les sommes de contrôle BLAKE2 pour plusieurs fichiers :
 
-`b2sum {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
+`b2sum {{chemin/vers/fichier1 chemin/vers/fichier2 ...}} > {{chemin/vers/fichier.b2}}`
 
-- Calcule la somme de contrôle BLAKE2 depuis stdin :
+- Calcule la somme de contrôle BLAKE2 depuis `stdin` :
 
 `{{commande}} | b2sum`
 

@@ -12,9 +12,9 @@
 
 `git reset {{dosya(ların)/konumu}}`
 
-- Bir dosyanın kısımlarını geri al::
+- Bir dosyanın kısımlarını geri al:
 
-`git reset -p {{dosya/konumu}}`
+`git reset --patch {{dosya/konumu}}`
 
 - Son commit'i, dosya sisteminde yapılan değişiklikleri geri almadan geri al:
 

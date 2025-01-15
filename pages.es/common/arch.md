@@ -1,8 +1,8 @@
 # arch
 
 > Muestra el nombre de la arquitectura del sistema.
-> Ver también `uname`.
-> Más información: <https://www.gnu.org/software/coreutils/arch>.
+> Vea también `uname`.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
 
 - Muestra la arquitectura del sistema:
 

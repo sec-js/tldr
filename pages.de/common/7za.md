@@ -20,7 +20,7 @@
 
 `7za x {{pfad/zu/archiv.7z}} -o{{pfad/zu/verzeichnis}}`
 
-- E[x]trahiere ein Archiv nach stdout:
+- E[x]trahiere ein Archiv nach `stdout`:
 
 `7za x {{pfad/zu/archiv.7z}} -so`
 
@@ -31,7 +31,3 @@
 - [l]iste den Inhalt einer Archivdatei auf:
 
 `7za l {{pfad/zu/archiv.7z}}`
-
-- Liste alle verfügbaren Archivtypen auf:
-
-`7za i`

@@ -1,16 +1,16 @@
 # mkdir
 
-> 创建目录。
-> 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
+> 创建目录并设置其权限。
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
-- 在当前目录或给定路径下创建一个目录：
+- 创建特定目录：
 
-`mkdir {{目录}}`
+`mkdir {{路径/到/目录1 路径/到/目录2 ...}}`
 
-- 在当前目录下创建多个目录：
+- 根据需要创建特定目录及其父目录：
 
-`mkdir {{目录_1 目录_2 ...}}`
+`mkdir {{-p|--parents}} {{路径/到/目录1 路径/到/目录2 ...}}`
 
-- 递归地创建目录（对创建嵌套目录很有用）：
+- 创建具有特定权限的目录：
 
-`mkdir -p {{路径/到/目录}}`
+`mkdir {{-m|--mode}} {{rwxrw-r--}} {{路径/到/目录1 路径/到/目录2 ...}}`

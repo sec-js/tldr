@@ -7,6 +7,10 @@
 
 `ninja`
 
+- Build in the current directory, executing 4 jobs at a time in parallel:
+
+`ninja -j {{4}}`
+
 - Build a program in a given directory:
 
 `ninja -C {{path/to/directory}}`
@@ -15,6 +19,6 @@
 
 `ninja -t targets`
 
-- Show help:
+- Display help:
 
 `ninja -h`

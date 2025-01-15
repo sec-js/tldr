@@ -1,7 +1,7 @@
 # docker images
 
 > Manage Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/images/>.
+> More information: <https://docs.docker.com/reference/cli/docker/image/ls/>.
 
 - List all Docker images:
 
@@ -22,3 +22,7 @@
 - List images that contain a substring in their name:
 
 `docker images "{{*name*}}"`
+
+- Sort images by size:
+
+`docker images --format "\{\{.ID\}\}\t\{\{.Size\}\}\t\{\{.Repository\}\}:\{\{.Tag\}\}" | sort -k 2 -h`

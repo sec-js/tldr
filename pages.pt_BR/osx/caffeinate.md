@@ -1,7 +1,7 @@
 # caffeinate
 
 > Evita que o macOS entre em suspensão (repouso).
-> Mais informações: <https://ss64.com/osx/caffeinate.html>.
+> Mais informações: <https://keith.github.io/xcode-man-pages/caffeinate.8.html>.
 
 - Evita a suspensão por uma hora (3600 segundos):
 
@@ -11,6 +11,14 @@
 
 `caffeinate -s "{{comando}}"`
 
-- Evita a suspensão até que você digite Ctrl-C:
+- Evita a suspensão até que um processo com o PID especificado seja concluído:
+
+`caffeinate -w {{pid}}`
+
+- Evita a suspensão (use `Ctrl + C` para sair):
 
 `caffeinate -i`
+
+- Evita a suspensão do disco (use `Ctrl + C` para sair):
+
+`caffeinate -m`

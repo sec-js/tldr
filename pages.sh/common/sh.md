@@ -10,12 +10,12 @@
 
 - Izvrši komandu:
 
-`sh -c {{komanda}}`
+`sh -c "{{komanda}}"`
 
 - Pokreni komande iz datoteke:
 
 `sh {{datoteka.sh}}`
 
-- Pokreni komande iz stdin-a:
+- Pokreni komande iz `stdin`-a:
 
 `sh -s`

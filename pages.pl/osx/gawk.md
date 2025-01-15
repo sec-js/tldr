@@ -1,7 +1,7 @@
 # gawk
 
-> To polecenie jest aliasem `-p linux awk`.
+> To polecenie jest aliasem `awk`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
-`tldr -p linux awk`
+`tldr awk`
