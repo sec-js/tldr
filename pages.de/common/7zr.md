@@ -1,7 +1,7 @@
 # 7zr
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
-> Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
+> Eine alleinstehende Version von `7z`, die nur 7z Dateien unterstützt.
 > Weitere Informationen: <https://manned.org/7zr>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:
@@ -20,14 +20,10 @@
 
 `7zr x {{pfad/zu/archiv.7z}} -o{{pfad/zu/verzeichnis}}`
 
-- E[x]trahiere ein Archiv nach stdout:
+- E[x]trahiere ein Archiv nach `stdout`:
 
 `7zr x {{pfad/zu/archiv.7z}} -so`
 
 - [l]iste den Inhalt einer Archivdatei auf:
 
 `7zr l {{pfad/zu/archiv.7z}}`
-
-- Liste alle verfügbaren Archivtypen auf:
-
-`7zr i`

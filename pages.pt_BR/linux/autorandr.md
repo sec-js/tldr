@@ -3,18 +3,22 @@
 > Altera o layout da tela automaticamente.
 > Mais informações: <https://github.com/phillipberndt/autorandr>.
 
-- Salvar o layout da tela em uso:
+- Salva o layout da tela em uso:
 
-`autorandr -s {{nome_do_perfil}}`
+`autorandr --save {{nome_do_perfil}}`
 
-- Exibir os perfis salvos:
+- Exibe os perfis salvos:
 
 `autorandr`
 
-- Alterar o perfil:
+- Carrega o primeiro perfil detectado:
 
-`autorandr -l {{nome_do_perfil}}`
+`autorandr --change`
 
-- Definir o perfil padrão:
+- Carrega um perfil específico:
 
-`autorandr -d {{nome_do_perfil}}`
+`autorandr --load {{nome_do_perfil}}`
+
+- Define o perfil padrão:
+
+`autorandr --default {{nome_do_perfil}}`

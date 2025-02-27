@@ -1,8 +1,7 @@
 # sls
 
-> To polecenie jest aliasem `where-object`.
-> Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> To polecenie jest aliasem `Select-String`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
-`tldr where-object`
+`tldr select-string`

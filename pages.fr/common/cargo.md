@@ -1,7 +1,7 @@
 # cargo
 
 > Gestion d'un projet Rust et ses dependences (crates).
-> Certaines sous-commandes comme `cargo build` ont leurs propres documentations.
+> Certaines sous-commandes comme `build` ont leurs propres documentations.
 > Plus d'informations : <https://doc.rust-lang.org/cargo>.
 
 - Rechercher des crates :
@@ -16,17 +16,13 @@
 
 `cargo install --list`
 
-- Créer un nouveau binaire ou librairie du projet Rust dans le dossier courant :
+- Crée un nouveau binaire ou librairie du projet Rust dans les dossiers spécifiés (ou dans le dossier courant par défaut) :
 
-`cargo init --{{bin|lib}}`
+`cargo init --{{bin|lib}} {{chemin/vers/dossier}}`
 
-- Créer un nouveau binaire ou librairie du projet Rust dans un dossier spécifique :
+- Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
-`cargo new {{chemin/vers/dossier}} --{{bin|lib}}`
-
-- Compiler le projet Rust dans le dossier courant :
-
-`cargo build`
+`cargo build --release`
 
 - Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 

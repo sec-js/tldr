@@ -1,11 +1,8 @@
 # ruby
 
 > Ruby programming language interpreter.
+> See also: `gem`, `bundler`, `rake`, `irb`.
 > More information: <https://www.ruby-lang.org>.
-
-- Start a REPL (interactive shell):
-
-`irb`
 
 - Execute a Ruby script:
 
@@ -19,6 +16,14 @@
 
 `ruby -c {{script.rb}}`
 
-- Show the version of Ruby you are using:
+- Start the built-in HTTP server on port 8080 in the current directory:
+
+`ruby -run -e httpd`
+
+- Locally execute a Ruby binary without installing the required library it depends on:
+
+`ruby -I {{path/to/library_folder}} -r {{library_require_name}} {{path/to/bin_folder/bin_name}}`
+
+- Display Ruby version:
 
 `ruby -v`

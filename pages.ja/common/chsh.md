@@ -1,7 +1,7 @@
 # chsh
 
 > ユーザーのログインシェルを変更します。
-> 詳しくはこちら: <https://manned.org/chsh>
+> もっと詳しく: <https://manned.org/chsh>。
 
 - カレントユーザーのログインシェルを対話的に変更する:
 
@@ -17,4 +17,4 @@
 
 - 使用可能なシェルの一覧を表示する:
 
-`chsh --list-shells`
+`chsh -l`

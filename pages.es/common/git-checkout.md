@@ -1,9 +1,9 @@
 # git checkout
 
-> Comprueba una rama o rutas con el arbol de trabajo.
+> Comprueba una rama o rutas con el árbol de trabajo.
 > Más información: <https://git-scm.com/docs/git-checkout>.
 
-- Crea una nueva rama y cambiarse a esta:
+- Crea una nueva rama y se cambia a la misma:
 
 `git checkout -b {{nombre_de_la_rama}}`
 
@@ -23,14 +23,14 @@
 
 `git checkout --track {{nombre_remoto}}/{{nombre_de_la_rama}}`
 
-- Descarta todos los cambios sin marcar en el directorio actual (véase `git reset` para más comandos para deshacer):
+- Descarta todos los cambios sin marcar en el directorio actual (vea `git reset` para más comandos para deshacer):
 
 `git checkout .`
 
-- Decarta los cambios no marcados de un archivo específico:
+- Descarta los cambios no marcados de un archivo específico:
 
 `git checkout {{nombre_del_archivo}}`
 
-- Sustituir un archivo en el directorio actual con la versión de este en un commit de una rama específica:
+- Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:
 
 `git checkout {{nombre_de_la_rama}} -- {{nombre_del_archivo}}`

@@ -1,8 +1,7 @@
 # sls
 
-> هذا الأمر هو اسم مستعار لـ `where-object`.
-> لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> هذا الأمر هو اسم مستعار لـ `Select-String`.
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr where-object`
+`tldr select-string`

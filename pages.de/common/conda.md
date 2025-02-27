@@ -1,7 +1,7 @@
 # conda
 
 > Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen.
-> Manche Unterbefehle wie `conda create` sind separat dokumentiert.
+> Manche Unterbefehle wie `create` sind separat dokumentiert.
 > Weitere Informationen: <https://github.com/conda/conda>.
 
 - Erstelle eine neue Umgebung mit den zu installierenden Paketen:
@@ -14,11 +14,11 @@
 
 - Lade eine Umgebung:
 
-`conda {{activate umgebungs_name}}`
+`conda activate {{umgebungs_name}}`
 
 - Entlade eine Umgebung:
 
-`conda {{deactivate}}`
+`conda deactivate`
 
 - Lösche eine Umgebung (entferne alle Pakete):
 

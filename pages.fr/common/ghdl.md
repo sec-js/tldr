@@ -1,13 +1,13 @@
 # ghdl
 
 > Simulateur à source ouvert pour le langage VHDL.
-> Plus d'informations : <http://ghdl.free.fr>.
+> Plus d'informations : <https://ghdl.github.io/ghdl/>.
 
 - Analyse un fichier de source VHDL et génère un fichier objet :
 
 `ghdl -a {{fichier.vhdl}}`
 
-- Élabore un design (où `{{design}}` est le nom d'une unité de configuration, d'entité, ou d'architecture) :
+- Élabore un design (où `design` est le nom d'une unité de configuration, d'entité, ou d'architecture) :
 
 `ghdl -e {{design}}`
 

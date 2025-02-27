@@ -1,7 +1,7 @@
 # terraform fmt
 
 > Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache.
-> Weitere Informationen: <https://www.terraform.io/docs/commands/fmt.html>.
+> Weitere Informationen: <https://developer.hashicorp.com/terraform/cli/commands/fmt>.
 
 - Formatieren der Konfiguration im aktuellen Verzeichnis:
 
@@ -15,6 +15,6 @@
 
 `terraform fmt -diff`
 
-- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf stdout ausgegeben:
+- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf `stdout` ausgegeben:
 
 `terraform fmt -list=false`

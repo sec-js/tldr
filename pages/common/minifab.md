@@ -1,6 +1,6 @@
 # minifab
 
-> Utility tool that automates the setup and deployment of Hyperledger Fabric networks.
+> Automate the setup and deployment of Hyperledger Fabric networks.
 > More information: <https://github.com/hyperledger-labs/minifabric>.
 
 - Bring up the default Hyperledger Fabric network:
@@ -25,7 +25,7 @@
 
 - Invoke a chaincode method with the specified arguments:
 
-`minifab invoke -n {{chaincode_name}} -p '"{{method_name}}", "{{arg0}}", "{{arg1}}", ...'`
+`minifab invoke -n {{chaincode_name}} -p '"{{method_name}}", "{{argument1}}", "{{argument2}}", ...'`
 
 - Make a query on the ledger:
 
@@ -33,4 +33,4 @@
 
 - Quickly run an application:
 
-`minifab apprun -l {{app_programming_langauge}}`
+`minifab apprun -l {{app_programming_language}}`

@@ -1,12 +1,12 @@
 # pip
 
 > Python package manager.
-> Some subcommands such as `pip install` have their own usage documentation.
+> Some subcommands such as `install` have their own usage documentation.
 > More information: <https://pip.pypa.io>.
 
 - Install a package (see `pip install` for more install examples):
 
-`pip install {{package_name}}`
+`pip install {{package}}`
 
 - Install a package to the user's directory instead of the system-wide default location:
 
@@ -14,11 +14,11 @@
 
 - Upgrade a package:
 
-`pip install --upgrade {{package_name}}`
+`pip install --upgrade {{package}}`
 
 - Uninstall a package:
 
-`pip uninstall {{package_name}}`
+`pip uninstall {{package}}`
 
 - Save installed packages to file:
 
@@ -26,7 +26,7 @@
 
 - Show installed package info:
 
-`pip show {{package_name}}`
+`pip show {{package}}`
 
 - Install packages from a file:
 

@@ -1,7 +1,6 @@
 # mvn
 
-> Apache Maven.
-> Tool for building and managing Java-based projects.
+> Apache Maven: build and manage Java-based projects.
 > More information: <https://maven.apache.org>.
 
 - Compile a project:
@@ -30,8 +29,8 @@
 
 - Clean and then package the code with a given build profile:
 
-`mvn clean -P{{profile}} package`
+`mvn clean -P {{profile}} package`
 
 - Run a class with a main method:
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{arg1 arg2}}"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{argument1 argument2 ...}}"`

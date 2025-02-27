@@ -1,36 +1,36 @@
 # flatpak
 
-> Construa, instale e execute aplicações e plataformas flatpak.
+> Constrói, instala e executa aplicações e plataformas flatpak.
 > Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
-- Executar uma aplicação instalada:
+- Executa uma aplicação instalada:
 
-`flatpak run {{nome}}`
+`flatpak run {{com.exemplo.aplicacao}}`
 
-- Instalar uma aplicação de uma fonte remota:
+- Instala uma aplicação de uma fonte remota:
 
-`flatpak install {{remoto}} {{nome}}`
+`flatpak install {{nome_remoto}} {{com.exemplo.aplicacao}}`
 
-- Listar todas as aplicações e plataformas instaladas:
+- Lista aplicações instaladas, ignorando plataformas:
 
-`flatpak list`
+`flatpak list --app`
 
-- Atualizar todas as aplicações e plataformas instaladas:
+- Atualiza todas as aplicações e plataformas instaladas:
 
 `flatpak update`
 
-- Adicionar uma fonte remota:
+- Adiciona uma fonte remota:
 
 `flatpak remote-add --if-not-exists {{nome_remoto}} {{url_remoto}}`
 
-- Listar todas fontes remotas configuradas:
+- Remove uma aplicação instalada:
 
-`flatpak remote-list`
+`flatpak remove {{com.exemplo.aplicacao}}`
 
-- Remover uma aplicação instalada:
+- Remove todos as aplicações não usadas:
 
-`flatpak remove {{nome}}`
+`flatpak remove --unused`
 
-- Mostrar informações sobre uma aplicação instalada:
+- Mostra informações sobre uma aplicação instalada:
 
-`flatpak info {{nome}}`
+`flatpak info {{com.exemplo.aplicacao}}`

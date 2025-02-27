@@ -1,20 +1,24 @@
 # base32
 
 > Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/base32>.
+> Więcej informacji: <https://manned.org/base32>.
 
 - Enkoduj plik:
 
-`base32 {{nazwapliku}}`
+`base32 {{ścieżka/do/pliku}}`
+
+- Zawijaj zakodowane wyjście do określonej szerokości (`0` wyłącza zawijanie):
+
+`base32 {{-w|--wrap}} {{0|76|...}} {{ścieżka/do/pliku}}`
 
 - Dekoduj plik:
 
-`base32 --decode {{nazwapliku}}`
+`base32 {{-d|--decode}} {{ścieżka/do/pliku}}`
 
-- Enkoduj z stdin:
+- Enkoduj z `stdin`:
 
 `{{jakiespolecenie}} | base32`
 
-- Dekoduj z stdin:
+- Dekoduj z `stdin`:
 
-`{{jakiespolecenie}} | base32 --decode`
+`{{jakiespolecenie}} | base32 {{-d|--decode}}`

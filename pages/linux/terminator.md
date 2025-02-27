@@ -3,7 +3,7 @@
 > Arrange multiple GNOME terminals in one window.
 > More information: <https://gnome-terminator.org/>.
 
-- Start terminator window:
+- Start `terminator` window:
 
 `terminator`
 
@@ -13,12 +13,12 @@
 
 - Split terminals horizontally:
 
-`Ctrl + Shift + O`
+`<Ctrl> + <Shift> + O`
 
 - Split terminals vertically:
 
-`Ctrl + Shift + E`
+`<Ctrl> + <Shift> + E`
 
 - Open new tab:
 
-`Ctrl + Shift + T`
+`<Ctrl> + <Shift> + T`

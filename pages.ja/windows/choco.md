@@ -1,8 +1,8 @@
 # choco
 
 > Chocolateyパッケージマネージャーのコマンドラインインターフェイスです。
-> `choco install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-> 詳しくはこちら: <https://chocolatey.org>
+> `install` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+> もっと詳しく: <https://chocolatey.org>。
 
 - Chocolateyコマンドを実行します:
 

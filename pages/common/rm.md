@@ -2,7 +2,7 @@
 
 > Remove files or directories.
 > See also: `rmdir`.
-> More information: <https://www.gnu.org/software/coreutils/rm>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Remove specific files:
 
@@ -12,7 +12,7 @@
 
 `rm -f {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files [i]nteractively prompting before each removal:
+- Remove specific files interactively prompting before each removal:
 
 `rm -i {{path/to/file1 path/to/file2 ...}}`
 
@@ -20,6 +20,6 @@
 
 `rm -v {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files and directories [r]ecursively:
+- Remove specific files and directories recursively:
 
 `rm -r {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`

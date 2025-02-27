@@ -1,28 +1,38 @@
 # apt
 
-> Gerenciador de pacotes das distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Utilitário de gerenciamento de pacotes de distribuições baseadas em Debian.
+> Substituto recomendado para `apt-get` quando usado de forma interativa em versões do Ubuntu mais novas que 16.04.
+> Para comandos equivalentes em outros gerenciadores de pacotes, veja <https://wiki.archlinux.org/title/Pacman/Rosetta>.
+> Mais informações: <https://manned.org/apt.8>.
 
-- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
+- Atualiza a lista de pacotes e versões disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 
 `sudo apt update`
 
-- Buscar pacotes correspondentes ao critério de busca:
+- Busca por um determinado pacote:
 
-`apt search {{criterio_de_busca}}`
+`apt search {{pacote}}`
 
-- Exibir as informações de pacote:
+- Exibe as informações de um pacote:
 
-`apt show {{nome_do_pacote}}`
+`apt show {{pacote}}`
 
-- Instalar um pacote ou atualizá-lo para a versão mais recente:
+- Instala um pacote ou atualiza-o para a versão mais recente:
 
-`sudo apt install {{nome_do_pacote}}`
+`sudo apt install {{pacote}}`
 
-- Remover um pacote (Para remover os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
+- Remove um pacote (para remover também os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
 
-`sudo apt remove {{nome_do_pacote}}`
+`sudo apt remove {{pacote}}`
 
-- Atualizar os pacotes instalados para as versões mais recentes:
+- Atualiza todos os pacotes instalados para suas versões mais recentes:
 
 `sudo apt upgrade`
+
+- Lista todos os pacotes:
+
+`apt list`
+
+- Lista todos os pacotes instalados:
+
+`apt list --installed`

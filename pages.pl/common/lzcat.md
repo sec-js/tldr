@@ -1,8 +1,7 @@
 # lzcat
 
-> To polecenie jest aliasem `xz`.
-> Więcej informacji: <https://manned.org/lzcat>.
+> To polecenie jest aliasem `xz --format=lzma --decompress --stdout`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr xz`

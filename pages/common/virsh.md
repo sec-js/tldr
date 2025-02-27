@@ -1,20 +1,20 @@
 # virsh
 
-> Manage virsh guest domains. (NOTE: 'guest_id' can be the id, name or UUID of the guest).
-> Some subcommands such as `virsh list` have their own usage documentation.
-> More information: <https://libvirt.org/virshcmdref.html>.
+> Manage `virsh` guest domains. (Note: `guest_id` can be the ID, name or UUID of the guest).
+> Some subcommands such as `list` have their own usage documentation.
+> More information: <https://libvirt.org/manpages/virsh.html>.
 
 - Connect to a hypervisor session:
 
 `virsh connect {{qemu:///system}}`
 
+- Activate a network named `default`:
+
+`sudo virsh net-start {{default}}`
+
 - List all domains:
 
 `virsh list --all`
-
-- Dump guest configuration file:
-
-`virsh dumpxml {{guest_id}} > {{path/to/guest.xml}}`
 
 - Create a guest from a configuration file:
 

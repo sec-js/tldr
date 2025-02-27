@@ -1,8 +1,7 @@
 # ntl
 
-> Este comando é um pseudônimo de `netlify`.
-> Mais informações: <https://cli.netlify.com>.
+> Este comando é um apelido de `netlify`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr netlify`

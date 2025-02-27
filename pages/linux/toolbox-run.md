@@ -12,6 +12,6 @@
 
 `toolbox run --distro {{distribution}} --release {{release}} {{command}}`
 
-- Run `emacs` inside a `toolbox` container using the default image for Fedora 36:
+- Run `emacs` inside a `toolbox` container using the default image for Fedora 39:
 
-`toolbox run --distro {{fedora}} --release {{f36}} {{emacs}}`
+`toolbox run --distro {{fedora}} --release {{f39}} {{emacs}}`

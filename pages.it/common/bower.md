@@ -10,19 +10,15 @@
 
 - Installa pacchetti nella directory bower_components:
 
-`bower install {{pacchetto1}} {{pacchetto2}} ...`
+`bower install {{pacchetto}} {{pacchetto}}`
 
 - Disinstalla pacchetti localmente rimuovendolo dalla directory bower_components:
 
-`bower uninstall {{pacchetto1}} {{pacchetto2}}`
+`bower uninstall {{pacchetto}} {{pacchetto}}`
 
 - Elenca pacchetti locali e possibili aggiornamenti:
 
 `bower list`
-
-- Mostra aiuto per un comando di bower:
-
-`bower help {{comando}}`
 
 - Crea un file bower.json per i tuoi pacchetti:
 
@@ -31,3 +27,7 @@
 - Installa unoa specifica versione di una dipendenza ed aggiungila al file `bower.json`:
 
 `bower install {{nome_locale}}={{pacchetto}}#{{versione}} --save`
+
+- Mostra aiuto per un comando di bower:
+
+`bower help {{comando}}`

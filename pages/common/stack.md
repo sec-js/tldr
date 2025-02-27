@@ -1,11 +1,11 @@
 # stack
 
-> Tool for managing Haskell projects.
+> Manage Haskell projects.
 > More information: <https://github.com/commercialhaskell/stack>.
 
 - Create a new package:
 
-`stack new {{package_name}} {{template_name}}`
+`stack new {{package}} {{template}}`
 
 - Compile a package:
 
@@ -25,4 +25,4 @@
 
 - Run a program and pass an argument to it:
 
-`stack exec {{program_name}} -- {{argument}}`
+`stack exec {{program}} -- {{argument}}`

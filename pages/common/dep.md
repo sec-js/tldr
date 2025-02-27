@@ -1,10 +1,10 @@
 # dep
 
-> A CLI tool for deployment of PHP applications.
+> Deploy PHP applications.
 > Note: The Go command `dep` with the same name is deprecated and archived.
 > More information: <https://deployer.org>.
 
-- Interactively initialize deployer in the local path (use a framework template with `--template={{template}}`):
+- Interactively initialize deployer in the local path (use a framework template with `--template=template`):
 
 `dep init`
 
@@ -16,7 +16,7 @@
 
 `dep rollback`
 
-- Connect to a remote host via ssh:
+- Connect to a remote host via SSH:
 
 `dep ssh {{hostname}}`
 

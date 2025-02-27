@@ -1,8 +1,7 @@
 # ntl
 
 > Este comando es un alias de `netlify`.
-> Más información: <https://cli.netlify.com>.
 
-- Ver documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr netlify`

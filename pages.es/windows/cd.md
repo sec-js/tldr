@@ -1,24 +1,33 @@
 # cd
 
-> Muestra información sobre el directorio actual y le permite moverse a otro.
-> Más informaciones: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Muestra el directorio de trabajo actual o se desplaza a un directorio diferente.
+> En PowerShell, este comando es un alias de `Set-Location`. Esta documentación está basada en la versión del símbolo del sistema (`cmd`) de `cd`.
+> Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Muestra la ruta (path) del directorio actual:
+- Vea la documentación del comando PowerShell equivalente:
+
+`tldr set-location`
+
+- Muestra la ruta del directorio actual:
 
 `cd`
 
-- Ir a la raíz de la unidad actual:
-
-`cd \`
-
-- Mover al directorio superior:
-
-`cd ..`
-
-- Mover a un directorio específico en el mismo disco:
+- Va a un directorio específico en la misma unidad:
 
 `cd {{ruta\al\directorio}}`
 
-- Mover a un directorio específico en otro disco:
+- Va a un directorio específico en una uni[d]ad diferente:
 
 `cd /d {{C}}:{{ruta\al\directorio}}`
+
+- Sube al directorio padre del directorio actual:
+
+`cd ..`
+
+- Va al directorio principal del usuario actual:
+
+`cd %userprofile%`
+
+- Va a la raíz de la unidad actual:
+
+`cd \`

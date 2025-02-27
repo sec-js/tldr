@@ -1,8 +1,13 @@
 # time
 
-> Kijk hoe lang een opdracht duurt.
+> Meet hoe lang het uitvoeren van een commando duurt.
+> Let op: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
 > Meer informatie: <https://manned.org/time>.
 
-- Tijd "ls":
+- Voer het `commando` uit en print de tijdmetingen naar `stdout`::
 
-`time ls`
+`time {{commando}}`
+
+- Maak een eenvoudige stopwatch (werkt alleen in Bash):
+
+`time read`

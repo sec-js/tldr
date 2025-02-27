@@ -1,8 +1,7 @@
 # xzcat
 
-> To polecenie jest aliasem `xz`.
-> Więcej informacji: <https://manned.org/xzcat>.
+> To polecenie jest aliasem `xz --decompress --stdout`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr xz`

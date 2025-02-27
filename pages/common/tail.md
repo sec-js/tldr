@@ -2,7 +2,7 @@
 
 > Display the last part of a file.
 > See also: `head`.
-> More information: <https://www.gnu.org/software/coreutils/tail>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
 - Show last 'count' lines in file:
 
@@ -16,7 +16,7 @@
 
 `tail --bytes {{count}} {{path/to/file}}`
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading it until `Ctrl + C`:
 
 `tail --follow {{path/to/file}}`
 

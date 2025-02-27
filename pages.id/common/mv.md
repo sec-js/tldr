@@ -1,24 +1,36 @@
 # mv
 
-> Memindah atau menamai-ulang file dan direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
+> Pindahkan atau namai-ulang berkas dan direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
-- Memindahkan file ke lokasi yang baru:
+- Pindahkan berkas ke lokasi yang baru:
 
 `mv {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Memindah tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
+- Pindahkan berkas atau direktori ke dalam direktori lain yang telah ada:
 
-`mv -f {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv {{jalan/menuju/sumber}} {{jalan/menuju/direktori}}`
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya:
+- Pindahkan berkas majemuk ke dalam direktori lain yang telah ada, dengan menyimpan nama masing-masing file secara utuh:
 
-`mv -i {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv {{jalan/menuju/sumber1 jalan/menuju/sumber2 ...}} {{jalan/menuju/direktori}}`
+
+- Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
+
+`mv --force {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+
+- Minta konfirmasi sebelum menimpa berkas yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:
+
+`mv --interactive {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
 - Jangan menimpa file yang sudah ada di direktori tujuan:
 
-`mv -n {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --no-clobber {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
 
-- Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan:
+- Pindahkan berkas dalam mode [v]erbose, tampilkan berkas-berkas yang dipindahkan:
 
-`mv -v {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+`mv --verbose {{jalan/menuju/sumber}} {{jalan/menuju/tujuan}}`
+
+- Tetapkan direktori tujuan ([t]arget) agar Anda dapat menggunakan alat atau perintah eksternal untuk mengelola kumpulan berkas yang dapat dipindahkan:
+
+`{{find /var/log -type f -name '*.log' -print0}} | {{xargs -0}} mv --target-directory {{jalan/menuju/direktori_tujuan}}`

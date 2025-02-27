@@ -1,16 +1,12 @@
 # docker
 
 > 管理 Docker 容器和映像檔。
-> 此命令也有關於其子命令的文件，例如：`docker run`.
-> 更多資訊：<https://docs.docker.com/engine/reference/commandline/cli/>.
+> 此命令也有關於其子命令的文件，例如：`run`.
+> 更多資訊：<https://docs.docker.com/reference/cli/docker/>.
 
-- 列出目前正在運行的 docker 容器：
+- 列出所有 Docker 容器（包括停止的容器）：
 
-`docker ps`
-
-- 列出所有 docker 容器（包括停止的容器）：
-
-`docker ps -a`
+`docker ps --all`
 
 - 透過映像檔啟動容器，並為容器命名：
 
@@ -20,11 +16,15 @@
 
 `docker {{start|stop}} {{容器名稱}}`
 
-- 從 docker registry 中拉取映像檔：
+- 從 Docker registry 中拉取映像檔：
 
 `docker pull {{映像檔}}`
 
-- 從正在運行的容器內打開一個 shell：
+- 顯示已下載的映像檔清單：
+
+`docker images`
+
+- 從正在運行的容器內打開一個互動式 ([i]nteractive) 终端 ([t]ty) shell (`sh`)：
 
 `docker exec -it {{容器名稱}} {{sh}}`
 

@@ -2,7 +2,7 @@
 
 > Display file contents in octal, decimal or hexadecimal format.
 > Optionally display the byte offsets and/or printable representation for each line.
-> More information: <https://www.gnu.org/software/coreutils/od>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/od-invocation.html>.
 
 - Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
 
@@ -26,4 +26,4 @@
 
 - Read only 100 bytes of a file starting from the 500th byte:
 
-`od --read-bytes {{100}} --skip-bytes={{500}} -v {{path/to/file}}`
+`od --read-bytes 100 --skip-bytes=500 -v {{path/to/file}}`

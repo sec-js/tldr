@@ -2,36 +2,36 @@
 
 > Arch Linux package manager utility.
 > See also: `pacman`.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> More information: <https://manned.org/pacman.8>.
 
 - Install a new package:
 
-`sudo pacman --sync {{package_name}}`
+`sudo pacman -S {{package}}`
 
-- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
+- [S]ynchronize and refresh ([y]) the package database along with a sys[u]pgrade (add `--downloadonly` to only download the packages and not update them):
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
-- Update all packages and install a new one without prompting:
+- Update and [u]pgrade all packages and install a new one without prompting:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {{package_name}}`
+`sudo pacman -Syu --noconfirm {{package}}`
 
-- Search the package database for a regular expression or keyword:
+- [s]earch the package database for a regular expression or keyword:
 
-`pacman --sync --search "{{search_pattern}}"`
+`pacman -Ss "{{search_pattern}}"`
 
-- Display information about a package:
+- Display [i]nformation about a package:
 
-`pacman --sync --info {{package_name}}`
+`pacman -Si {{package}}`
 
 - Overwrite conflicting files during a package update:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
+`sudo pacman -Syu --overwrite {{path/to/file}}`
 
-- Synchronize and update all packages, but ignore a specific package (can be used more than once):
+- Remove not installed packages and unused repositories from the cache (use the flags `Sc` to [c]lean all packages):
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {{package_name}}`
+`sudo pacman -Sc`
 
-- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
+- Specify the package version that should be installed:
 
-`sudo pacman --sync --clean`
+`sudo pacman -S {{package}}={{version}}`

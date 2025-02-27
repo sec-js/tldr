@@ -1,7 +1,7 @@
 # du
 
 > Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/du>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/du-invocation.html>.
 
 - Liste die Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KiB/MiB) auf:
 
@@ -25,4 +25,4 @@
 
 - Liste die menschenlesbare Größe aller `.jpg`-Dateien in Unterverzeichnissen des aktuellen Verzeichnisses auf und zeige am Ende die kumulierte Gesamtsumme an:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`

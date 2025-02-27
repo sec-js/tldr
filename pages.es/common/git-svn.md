@@ -9,16 +9,16 @@
 
 - Clona un repositorio SVN a partir un número de revisión específico:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.ejemplo.net/subversion/repo}} {{directorio_local}}`
+`git svn clone {{-r|--revision}} {{1234}}:HEAD {{https://svn.ejemplo.net/subversion/repo}} {{directorio_local}}`
 
 - Actualiza el clon local a partir del repositorio SVN:
 
 `git svn rebase`
 
-- Obtiene las actualización del repositorio SVN remoto sin cambiar el HEAD de Git:
+- Obtén las actualizaciones del repositorio SVN remoto sin cambiar el HEAD de Git:
 
 `git svn fetch`
 
-- Realiza un commit al repositorio SVN:
+- Realiza una confirmación en un repositorio SVN:
 
-`git svn dcommit`
+`git svn commit`

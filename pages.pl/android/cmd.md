@@ -1,7 +1,7 @@
 # cmd
 
 > Menedżer usług Android.
-> Więcej informacji: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Więcej informacji: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Pokaż wszystkie działające usługi:
 
@@ -9,8 +9,8 @@
 
 - Uruchom konkretną usługę:
 
-`cmd {{alarm}}`
+`cmd {{usługa}}`
 
-- Uruchom usługę z argumentami:
+- Uruchom usługę z określonymi argumentami:
 
-`cmd {{wibrator}} {{wibruj 300}}`
+`cmd {{usługa}} {{argument1 argument2 ...}}`

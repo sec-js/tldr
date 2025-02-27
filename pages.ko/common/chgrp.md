@@ -1,7 +1,7 @@
 # chgrp
 
 > 파일 및 디렉토리의 그룹 소유권 변경.
-> 더 많은 정보: <https://www.gnu.org/software/coreutils/chgrp>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/manual/html_node/chgrp-invocation.html>.
 
 - 파일/디렉토리의 소유 그룹 변경:
 
@@ -17,4 +17,4 @@
 
 - 참조 파일과 일치하도록 파일/디렉토리의 소유 그룹 변경:
 
-`chgrp --reference={{경로/참조_파일명}} {{경로/파일명_또는_디렉토리명}}`
+`chgrp --reference {{경로/참조_파일명}} {{경로/파일명_또는_디렉토리명}}`

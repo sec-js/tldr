@@ -1,9 +1,9 @@
 # tree
 
 > Muestra los contenidos del directorio actual en forma de árbol.
-> Más información: <http://mama.indstate.edu/users/ice/tree/>.
+> Más información: <https://manned.org/tree>.
 
-- Imprime archivos y directories hasta `num` niveles de profundidad (donde 1 significa el directorio actual):
+- Imprime archivos y directorios hasta `num` niveles de profundidad (donde 1 significa el directorio actual):
 
 `tree -L {{num}}`
 

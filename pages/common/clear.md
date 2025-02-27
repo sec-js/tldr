@@ -3,11 +3,11 @@
 > Clears the screen of the terminal.
 > More information: <https://manned.org/clear>.
 
-- Clear the screen (equivalent to pressing Control-L in Bash shell):
+- Clear the screen:
 
 `clear`
 
-- Clear the screen but keep the terminal's scrollback buffer:
+- Clear the screen but keep the terminal's scrollback buffer (equivalent to pressing Ctrl + L in Bash):
 
 `clear -x`
 
@@ -15,6 +15,6 @@
 
 `clear -T {{type_of_terminal}}`
 
-- Show the version of `ncurses` used by `clear`:
+- Display the version of `ncurses` used by `clear`:
 
 `clear -V`

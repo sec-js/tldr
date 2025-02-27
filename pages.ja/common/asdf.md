@@ -1,19 +1,19 @@
 # asdf
 
 > さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。
-> 詳しくはこちら: <https://asdf-vm.com>
+> もっと詳しく: <https://asdf-vm.com>。
 
 - 利用可能なプラグインの一覧を表示:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - プラグインのインストール:
 
-`asdf plugin-add {{プラグイン名}}`
+`asdf plugin add {{プラグイン名}}`
 
 - パッケージで利用可能なすべてのバージョンの一覧を表示:
 
-`asdf list-all {{パッケージ名}}`
+`asdf list all {{パッケージ名}}`
 
 - パッケージの特定バージョンのインストール:
 

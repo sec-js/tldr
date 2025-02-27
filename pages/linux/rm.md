@@ -2,7 +2,7 @@
 
 > Remove files or directories.
 > See also: `rmdir`.
-> More information: <https://www.gnu.org/software/coreutils/rm>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - Remove specific files:
 
@@ -23,3 +23,7 @@
 - Remove specific files and directories recursively:
 
 `rm --recursive {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
+- Remove empty directories (this is considered the safe method):
+
+`rm --dir {{path/to/directory}}`

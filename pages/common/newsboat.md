@@ -11,11 +11,11 @@
 
 `echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
 
-- Start newsboat and refresh all feeds on startup:
+- Start Newsboat and refresh all feeds on startup:
 
 `newsboat -r`
 
-- Execute a space-separated list of commands in non-interactive mode:
+- Execute one or more commands in non-interactive mode:
 
 `newsboat -x {{reload print-unread ...}}`
 

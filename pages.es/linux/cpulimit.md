@@ -1,7 +1,7 @@
 # cpulimit
 
 > Una herramienta para limitar el uso del CPU de otros procesos.
-> Más información: <http://cpulimit.sourceforge.net/>.
+> Más información: <https://cpulimit.sourceforge.net/>.
 
 - Limita un proceso existente con PID 1234 para que solo use el 25% del CPU:
 
@@ -13,7 +13,7 @@
 
 - Ejecuta un programa determinado y limita su uso a solo el 50% del CPU:
 
-`cpulimit --limit {{50}} -- {{programa arg1 arg2 ...}}`
+`cpulimit --limit {{50}} -- {{programa argument1 argument2 ...}}`
 
 - Ejecuta un programa, limita el uso del CPU a 50% y corre cpulimit en segundo plano:
 

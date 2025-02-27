@@ -1,6 +1,6 @@
 # cs install
 
-> Install an application in the installation directory onfigured when installing `cs`  (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
+> Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
 > More information: <https://get-coursier.io/docs/cli-install>.
 
 - Install a specific application:
@@ -31,6 +31,6 @@
 
 `cs list`
 
-- Pass specific java options to an installed application:
+- Pass specific Java options to an installed application:
 
 `{{application_name}} {{-Jjava_option_name1=value1 -Jjava_option_name2=value2 ...}}`

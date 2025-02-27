@@ -1,7 +1,7 @@
 # sort
 
 > 对文本文件的行进行排序。
-> 更多信息：<https://www.gnu.org/software/coreutils/sort>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
 
 - 以升序对文件进行排序：
 
@@ -17,7 +17,7 @@
 
 - 用数字而不是字母顺序对文件进行排序：
 
-`sort --numeric-sort={{路径/到/文件}}`
+`sort --numeric-sort {{路径/到/文件}}`
 
 - 按每行的第 3 个字段对 `/etc/passwd` 进行数字排序，使用 “:” 作为字段分隔符：
 

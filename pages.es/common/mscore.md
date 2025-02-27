@@ -1,8 +1,7 @@
 # mscore
 
 > Este comando es un alias de `musescore`.
-> Más información: <https://musescore.org/handbook/command-line-options>.
 
-- Ver documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr musescore`

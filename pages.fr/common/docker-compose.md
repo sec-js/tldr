@@ -1,7 +1,7 @@
 # docker compose
 
 > Exécute et gère des applications au travers de plusieurs conteneurs Docker.
-> Plus d'informations : <https://docs.docker.com/compose/reference/>.
+> Plus d'informations : <https://docs.docker.com/reference/cli/docker/compose/>.
 
 - Liste tous les conteneurs en cours d'exécution :
 
@@ -15,9 +15,9 @@
 
 `docker compose up --build`
 
-- Démarre tous les conteneurs spécifiés dans un fichier compose alternatif :
+- Démarre tous les conteneurs en spécifiant un nom de projet et un fichier compose alternatif :
 
-`docker compose --file {{chemin/vers/fichier}} up`
+`docker compose -p {{nom_de_projet}} --file {{chemin/vers/fichier}} up`
 
 - Arrête tous les conteneurs en cours d'exécution :
 

@@ -3,13 +3,9 @@
 > Commande Git principale pour travailler avec des branches.
 > Plus d'informations : <https://git-scm.com/docs/git-branch>.
 
-- Liste les branches locale en préfixant la branche courante avec `*` :
-
-`git branch`
-
 - Liste toutes les branches (locale et distantes) :
 
-`git branch -a`
+`git branch --all`
 
 - Affiche le nom de la branche courante :
 
@@ -25,11 +21,11 @@
 
 - Renommer une branche (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -m {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
+`git branch {{-m|--move}} {{ancien_nom_de_branche}} {{nouveau_nom_de_branche}}`
 
 - Supprimer un branche locale (ne pas se trouver sur la branche pour le faire) :
 
-`git branch -d {{nom_de_branche}}`
+`git branch {{-d|--delete}} {{nom_de_branche}}`
 
 - Supprimer une branche distante :
 

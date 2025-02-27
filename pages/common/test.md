@@ -2,11 +2,11 @@
 
 > Check file types and compare values.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
-> More information: <https://www.gnu.org/software/coreutils/test>.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
 
 - Test if a given variable is equal to a given string:
 
-`test "{{$MY_VAR}}" == "{{/bin/zsh}}"`
+`test "{{$MY_VAR}}" = "{{/bin/zsh}}"`
 
 - Test if a given variable is empty:
 

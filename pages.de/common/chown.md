@@ -1,7 +1,7 @@
 # chown
 
 > Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/chown>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses:
 
@@ -21,4 +21,4 @@
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses, damit sie/es mit einer Referenzdatei übereinstimmt:
 
-`chown --reference={{pfad/zu/referenzdatei_oder_verzeichnis}} {{pfad/zu/datei_oder_verzeichnis}}`
+`chown --reference {{pfad/zu/referenzdatei_oder_verzeichnis}} {{pfad/zu/datei_oder_verzeichnis}}`

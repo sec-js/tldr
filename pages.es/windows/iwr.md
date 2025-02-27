@@ -1,7 +1,7 @@
 # iwr
 
-> Este comando es un alias de `invoke-webrequest`.
+> En Powershell este comando es un alias de `invoke-webrequest`.
 
-- Ver documentación para el comando original:
+- Vea la documentación del comando original:
 
 `tldr invoke-webrequest`

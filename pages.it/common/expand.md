@@ -1,7 +1,7 @@
 # expand
 
 > Converti caratteri tab in spazi.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/expand>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/expand-invocation.html>.
 
 - Converti tab in un file in spazi, scrivendo su standard output:
 
@@ -17,8 +17,8 @@
 
 - Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
-`expand -t={{numero_spazi}} {{file}}`
+`expand -t {{numero_spazi}} {{file}}`
 
 - Utilizza una lista separata da virgole di posizioni esplicite di tab:
 
-`expand -t={{1,4,6}}`
+`expand -t {{1,4,6}}`

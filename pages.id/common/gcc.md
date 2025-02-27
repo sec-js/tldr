@@ -1,24 +1,37 @@
 # gcc
 
-> Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
+> Praproses dan susun kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
+> Bagian dari GCC (GNU Compiler Collection).
 > Informasi lebih lanjut: <https://gcc.gnu.org>.
 
-- Mengubah beberapa sumber kode menjadi program:
+- Ubah beberapa sumber kode menjadi program:
 
-`gcc {{sumber1.c}} {{sumber2.c}} --output {{program}}`
+`gcc {{jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...}} {{-o|--output}} {{jalan/menuju/program}}`
 
-- Mengizinkan peringatan dan simbol debug di output:
+- Tampilkan pesan peringatan dan galat dalam output:
 
-`gcc {{sumber.c}} -Wall -Og --output {{program}}`
+`gcc {{jalan/menuju/sumber.c}} -Wall {{-o|--output}} {{jalan/menuju/program}}`
 
-- Menyertakan pustaka dari direktori yang berbeda:
+- Izinkan peringatan dan simbol debug dalam output:
 
-`gcc {{sumber.c}} --output {{program}} -I{{jalur_header}} -L{{jalur_pustaka}} -l{{nama_pustaka}}`
+`gcc {{jalan/menuju/sumber.c}} -Wall {{-g|--debug}} -Og {{-o|--output}} {{jalan/menuju/program}}`
 
-- Mengkompilasi kode sumber ke dalam bahasa tingkat rendah (assembly):
+- Sertakan pustaka (library) dari direktori yang berbeda:
 
-`gcc -S {{sumber.c}}`
+`gcc {{jalan/menuju/sumber.c}} {{-o|--output}} {{jalan/menuju/program}} -I{{jalan/menuju/header}} -L{{jalan/menuju/pustaka}} -l{{nama_pustaka}}`
 
-- Mengkompilasi kode sumber tanpa digabungkan:
+- Susun kode sumber ke dalam bahasa tingkat rendah (assembly):
 
-`gcc -c {{sumber.c}}`
+`gcc {{-S|--assemble}} {{jalan/menuju/sumber.c}}`
+
+- Susun kode sumber tanpa digabungkan:
+
+`gcc {{-c|--compile}} {{jalan/menuju/sumber.c}}`
+
+- [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
+
+`gcc {{jalan/menuju/sumber.c}} -O{{1|2|3|fast}} {{-o|--output}} {{jalan/menuju/program}}`
+
+- Tampilkan versi penyusun:
+
+`gcc --version`

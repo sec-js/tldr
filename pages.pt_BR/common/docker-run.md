@@ -1,7 +1,7 @@
 # docker run
 
 > Executa um comando em um novo container Docker.
-> Mais informações: <https://docs.docker.com/engine/reference/commandline/run/>.
+> Mais informações: <https://docs.docker.com/reference/cli/docker/container/run/>.
 
 - Executa um comando em um novo container de uma imagem tagueada:
 
@@ -26,3 +26,11 @@
 - Executa um comando em um novo container e abre as portas para acesso:
 
 `docker run --publish {{porta_do_host_local}}:{{porta_do_container}} {{imagem}} {{comando}}`
+
+- Executa um comando em um novo container sobrescrevendo o entrypoint da imagem:
+
+`docker run --entrypoint {{comando}} {{imagem}}`
+
+- Executa um comando em um novo container conectando-o a rede:
+
+`docker run --network {{rede}} {{imagem}}`

@@ -1,8 +1,8 @@
 # pkgfile
 
-> Tool for searching files from packages in the official repositories on arch-based systems.
-> See also `pacman files`, describing the usage of `pacman --files`.
-> More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1>.
+> Search files from packages in the official repositories on Arch-based systems.
+> See also: `pacman files`, describing the usage of `pacman --files`.
+> More information: <https://manned.org/pkgfile>.
 
 - Synchronize the pkgfile database:
 
@@ -14,11 +14,11 @@
 
 - List all files provided by a package:
 
-`pkgfile --list {{package_name}}`
+`pkgfile --list {{package}}`
 
-- List only files provided by a package located within the `bin` or `sbin` directory:
+- List executables provided by a package:
 
-`pkgfile --list --binaries {{package_name}}`
+`pkgfile --list --binaries {{package}}`
 
 - Search for a package that owns a specific file using case-insensitive matching:
 

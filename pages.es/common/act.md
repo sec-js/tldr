@@ -13,16 +13,20 @@
 
 - Ejecuta un evento específico:
 
-`act {{event_type}}`
+`act {{tipo_de_evento}}`
 
 - Ejecuta una acción específica:
 
-`act -a {{action_id}}`
+`act -j {{identificador_de_acción}}`
 
-- No ejecuta las acciones (p.e. simular una ejecución):
+- Simula una acción:
 
 `act -n`
 
 - Muestra registros detallados:
 
 `act -v`
+
+- Ejecuta un flujo de trabajo específico con el evento push:
+
+`act push -W {{ruta/a/flujo_de_trabajo}}`

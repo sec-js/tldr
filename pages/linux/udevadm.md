@@ -15,14 +15,18 @@
 
 `sudo udevadm monitor --udev`
 
-- List attributes of a device:
+- List attributes of device `/dev/sda`:
 
-`sudo udevadm info --attribute-walk --path {{/dev/sda1}}`
+`sudo udevadm info --attribute-walk {{/dev/sda}}`
 
 - Reload all `udev` rules:
 
-`sudo udevadm control --reload-rules`
+`sudo udevadm control --reload`
 
 - Trigger all `udev` rules to run:
 
 `sudo udevadm trigger`
+
+- Test an event run by simulating loading of `/dev/sda`:
+
+`sudo udevadm test {{/dev/sda}}`

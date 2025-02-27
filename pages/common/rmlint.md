@@ -1,32 +1,36 @@
 # rmlint
 
-> Identify duplicate files or directories, and other filesystem issues.
+> Find space waste and other broken things on your filesystem.
 > More information: <https://rmlint.readthedocs.io/en/latest/rmlint.1.html>.
 
-- Check a directory for duplicates, empty files, and other issues:
+- Check directories for duplicated, empty and broken files:
 
-`rmlint {{path/to/directory}}`
+`rmlint {{path/to/directory1 path/to/directory2 ...}}`
+
+- Check for duplicates bigger than a specific size, preferably keeping files in tagged directories (after the double slash):
+
+`rmlint -s {{1MB}} {{path/to/directory}} // {{path/to/original_directory}}`
+
+- Check for space wasters, keeping everything in the untagged directories:
+
+`rmlint --keep-all-untagged {{path/to/directory}} // {{path/to/original_directory}}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 
 `./rmlint.sh`
 
-- Find duplicate directory trees:
+- Find duplicate directory trees based on data, ignoring names:
 
 `rmlint --merge-directories {{path/to/directory}}`
 
-- Mark files at lower path [d]epth as originals:
+- Mark files at lower path [d]epth as originals, on tie choose shorter [l]ength:
 
-`rmlint --rank-by={{d}} {{path/to/directory}}`
+`rmlint --rank-by={{dl}} {{path/to/directory}}`
 
-- Mark files with shortest name [l]ength as originals:
+- Find files with identical filename and contents, and link rather than delete the duplicates:
 
-`rmlint --rank-by={{l}} {{path/to/directory}}`
+`rmlint -c sh:link --match-basename {{path/to/directory}}`
 
-- Find only duplicates that have the same filename in addition to the same contents:
+- Use `data` as master directory. Find only duplicates in backup that are also in `data`. Do not delete any files in `data`:
 
-`rmlint --match-basename {{path/to/directory}}`
-
-- Find all duplicates with the same extension:
-
-`rmlint --match-extension {{path/to/directory}}`
+`rmlint {{path/to/backup}} // {{path/to/data}} --keep-all-tagged --must-match-tagged`

@@ -1,8 +1,7 @@
 # alternatives
 
-> Este comando é um pseudônimo de `update-alternatives`.
-> Mais informações: <https://manned.org/alternatives>.
+> Este comando é um apelido de `update-alternatives`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr update-alternatives`

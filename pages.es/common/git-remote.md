@@ -5,7 +5,7 @@
 
 - Muestra una lista de los remotos existentes, sus nombres y URL:
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - Muestra información de un remoto:
 
@@ -15,9 +15,13 @@
 
 `git remote add {{nombre_remoto}} {{url_remoto}}`
 
-- Cambiar la URL de un remoto (utiliza `--add` para mantener la URL existente):
+- Cambia la URL de un remoto (utiliza `--add` para mantener la URL existente):
 
 `git remote set-url {{nombre_remoto}} {{nueva_url}}`
+
+- Muestra la URL de un remoto:
+
+`git remote get-url {{nombre_del_remoto}}`
 
 - Elimina un remoto:
 

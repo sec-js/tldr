@@ -1,7 +1,7 @@
 # ls
 
 > Liste le contenu d'un répertoire.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - Liste les fichiers, un par ligne :
 
@@ -25,7 +25,7 @@
 
 - Liste les fichiers avec un format détaillé en triant par taille décroissante :
 
-`ls -lS`
+`ls -lSR`
 
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 

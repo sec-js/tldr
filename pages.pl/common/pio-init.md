@@ -1,7 +1,7 @@
-# pio-init
+# pio init
 
-> To polecenie jest aliasem `pio project`.
+> To polecenie jest aliasem `pio project init`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr pio project`

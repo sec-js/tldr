@@ -2,11 +2,11 @@
 
 > Narzędzie do zarządzania pakietami w Arch Linuksie.
 > Zobacz także: `pacman`.
-> Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
+> Więcej informacji: <https://manned.org/pacman.8>.
 
 - Zainstaluj nowy pakiet:
 
-`sudo pacman -S {{nazwa_pakietu}}`
+`sudo pacman --sync {{nazwa_pakietu}}`
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety (użyj `--downloadonly` aby pobrać pakiety i ich nie zaktualizować):
 
@@ -18,7 +18,7 @@
 
 - Przeszukaj bazę danych pakietów używając wyrażenia regularnego lub słowa klucz:
 
-`pacman -Ss "{{zapytanie}}"`
+`pacman --sync --search "{{zapytanie}}"`
 
 - Wyświetl informacje o pakiecie:
 

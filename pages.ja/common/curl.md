@@ -2,7 +2,7 @@
 
 > データをサーバーから転送、もしくはサーバーへ転送します。
 > HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしています。
-> 詳しくはこちら: <https://curl.se>.
+> もっと詳しく: <https://curl.se/docs/manpage.html>。
 
 - URLのコンテンツをファイルにダウンロードする:
 
@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
-- フォームエンコードされたデータを送信する（`application/x-www-form-urlencoded`型のPOSTリクエスト）。STDIN(標準入力) から読み込むには、`--data @file_name` または `--data @'-'` を使用する:
+- フォームエンコードされたデータを送信する（`application/x-www-form-urlencoded`型のPOSTリクエスト）。`stdin`(標準入力) から読み込むには、`--data @file_name` または `--data @'-'` を使用する:
 
 `curl --data {{'name=bob'}} {{http://example.com/form}}`
 
@@ -30,7 +30,7 @@
 
 - サーバー認証のためユーザー名とパスワードを送る:
 
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl --user {{ユーザー名}} {{http://example.com}}`
 
 - リソースのクライアント証明書とキーを送り、証明書の検証をスキップする:
 

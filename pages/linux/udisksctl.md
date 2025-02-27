@@ -1,7 +1,7 @@
 # udisksctl
 
-> A command-line program used to interact with the udisksd daemon process.
-> More information: <http://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
+> Interact with `udisksd` to query and manipulate storage devices.
+> More information: <https://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - Show high-level information about disk drives and block devices:
 

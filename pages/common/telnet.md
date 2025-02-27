@@ -17,9 +17,9 @@
 
 - Emit the default escape character combination for terminating the session:
 
-`Ctrl + ]`
+`<Ctrl> + ]`
 
-- Start telnet with "x" as the session termination character:
+- Start `telnet` with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
 

@@ -1,24 +1,25 @@
 # rm
 
 > Elimina archivos o directorios.
-> Más información: <https://www.gnu.org/software/coreutils/rm>.
+> Vea también: `rmdir`.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
-- Elimina archivos de ubicaciones arbitrarias:
+- Elimina archivos específicos:
 
-`rm {{ruta/al/archivo}} {{ruta/al/otro/archivo}}`
+`rm {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
+- Elimina archivos específicos ignorando los que no existen:
 
-`rm -r {{ruta/al/directorio}}`
-
-- Elimina un directorio a la fuerza, sin pedir confirmación ni mostrar mensajes de error:
-
-`rm -rf {{ruta/al/directorio}}`
+`rm -f {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
 - Elimina varios archivos de forma interactiva, solicitando confirmación antes de eliminar cada archivo:
 
-`rm -i {{archivo(s)}}`
+`rm -i {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
 
-- Elimina archivos en modo detallado, imprimiendo un mensaje por cada archivo eliminado:
+- Elimina archivos, imprimiendo un mensaje por cada archivo eliminado:
 
-`rm -v {{ruta/hacia/directorio/*}}`
+`rm -v {{ruta/al/archivo1 ruta/al/archivo2 ...}}`
+
+- Elimina, de forma recursiva, archivos y directorios:
+
+`rm -r {{ruta/al/directorio1 ruta/al/directorio2 ...}}`

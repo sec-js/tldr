@@ -1,6 +1,6 @@
 # acme.sh
 
-> 实现了 ACME 客户端协议的 shell 脚本，是 certbot 的替代品。
+> 实现了 ACME 客户端协议的 shell 脚本，是 `certbot` 的替代品。
 > 另见 `acme.sh dns`。
 > 更多信息：<https://github.com/acmesh-official/acme.sh>.
 
@@ -30,4 +30,4 @@
 
 - 将证书文件安装到指定位置（对自动更新证书很有用）：
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/路径/到/example.com.key}} --fullchain-file {{/路径/到/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/路径/到/example.com.key}} --fullchain-file {{/路径/到/example.com.cer}} --reloadcmd "{{systemctl force-reload nginx}}"`

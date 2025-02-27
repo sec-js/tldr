@@ -1,7 +1,7 @@
 # ls
 
 > ディレクトリの内容を一覧表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/ls>
+> もっと詳しく: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>。
 
 - ファイルを1行ごとに一覧表示:
 
@@ -25,7 +25,7 @@
 
 - サイズ順（降順）に並べた長い形式での一覧表示:
 
-`ls -lS`
+`ls -lSR`
 
 - すべてのファイルの長い形式でのリストで、更新日が古いものから順に表示されます:
 

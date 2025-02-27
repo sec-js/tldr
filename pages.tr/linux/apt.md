@@ -2,11 +2,11 @@
 
 > Debian tabanlı dağıtımlar için paket yönetim aracı.
 > Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında `apt-get` için önerilen değiştirme.
-> Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> Daha fazla bilgi için: <https://manned.org/apt.8>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
 
-`apt update`
+`sudo apt update`
 
 - Belirli bir paketi arayın:
 
@@ -18,15 +18,15 @@
 
 - Bir paket kurun veya mevcut en son sürüme güncelleyin:
 
-`apt install {{paket}}`
+`sudo apt install {{paket}}`
 
 - Bir paketi kaldırın (bunun için "purge" kullanmak, yapılandırma dosyalarını da kaldırır):
 
-`apt remove {{paket}}`
+`sudo apt remove {{paket}}`
 
 - Kurulu tüm paketleri mevcut en yeni sürümlerine yükseltin:
 
-`apt upgrade`
+`sudo apt upgrade`
 
 - Tüm paketleri listeleyin:
 

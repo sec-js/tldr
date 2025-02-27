@@ -1,8 +1,7 @@
 # sls
 
-> Bu komut `where-object` için bir takma addır.
-> Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
+> Bu komut `Select-String` için bir takma addır.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr where-object`
+`tldr select-string`

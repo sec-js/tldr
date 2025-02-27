@@ -1,7 +1,8 @@
 # adb
 
 > Android Debug-Brug: communiceer met een Android-emulator of een aangesloten Android-apparaat.
-> Meer informatie: <https://developer.android.com/studio/command-line/adb>.
+> Sommige subcommando's zoals `shell` hebben hun eigen documentatie.
+> Meer informatie: <https://developer.android.com/tools/adb>.
 
 - Controleer of het adb serverproces draait en start het:
 
@@ -11,7 +12,7 @@
 
 `adb kill-server`
 
-- Start een afstandshell voor de doelemulator of apparaatinstantie:
+- Start een remote shell voor de doel-emulator of apparaat-instantie:
 
 `adb shell`
 
@@ -27,6 +28,10 @@
 
 `adb push {{pad/naar/lokaal/bestand_of_map}} {{pad/naar/extern/bestand_of_map}}`
 
-- Krijg een lijst met aangesloten apparaten:
+- Toon alle aangesloten apparaten:
 
 `adb devices`
+
+- Specificeer naar welk apparaat de opdrachten verzonden dienen te worden als er meerdere apparaten zijn:
+
+`adb -s {{apparaat_ID}} {{shell}}`

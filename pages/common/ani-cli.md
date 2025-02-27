@@ -7,22 +7,30 @@
 
 `ani-cli "{{anime_name}}"`
 
-- Download episode:
+- [d]ownload episode:
 
 `ani-cli -d "{{anime_name}}"`
 
-- Use VLC as the media player:
+- [d]ownload a [r]ange of episodes:
+
+`ani-cli -d -r "{{1 6}}" "{{anime_name}}"`
+
+- [d]ownload the entire series (a range of all episodes):
+
+`ani-cli -d -r "1 -1" "{{anime_name}}"`
+
+- Use [v]LC as the media player:
 
 `ani-cli -v "{{anime_name}}"`
 
-- Specify episode to watch:
+- Watch a specific [e]pisode:
 
-`ani-cli -a {{episode_number}} "{{anime_name}}"`
+`ani-cli -e {{episode_number}} "{{anime_name}}"`
 
-- Continue watching anime from history:
+- [c]ontinue watching anime from history:
 
 `ani-cli -c`
 
-- Update `ani-cli`:
+- [U]pdate `ani-cli`:
 
 `ani-cli -U`

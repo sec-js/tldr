@@ -1,7 +1,7 @@
 # ls
 
 > 列出目录中的内容。
-> 更多信息：<https://www.gnu.org/software/coreutils/ls>.
+> 更多信息：<https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
 - 列出目录中的文件，每个文件占一行：
 
@@ -25,7 +25,7 @@
 
 - 列出所有文件信息，按大小降序排序：
 
-`ls -lS`
+`ls -lSR`
 
 - 列出所有文件信息，按修改日期从旧到新排序：
 

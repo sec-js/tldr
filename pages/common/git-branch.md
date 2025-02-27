@@ -23,13 +23,13 @@
 
 `git branch {{branch_name}} {{commit_hash}}`
 
-- Rename a branch (must not have it checked out to do this):
+- Rename a branch (you must switch to a different branch before doing this):
 
-`git branch -m {{old_branch_name}} {{new_branch_name}}`
+`git branch {{-m|--move}} {{old_branch_name}} {{new_branch_name}}`
 
-- Delete a local branch (must not have it checked out to do this):
+- Delete a local branch (you must switch to a different branch before doing this):
 
-`git branch -d {{branch_name}}`
+`git branch {{-d|--delete}} {{branch_name}}`
 
 - Delete a remote branch:
 

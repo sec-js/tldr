@@ -1,24 +1,28 @@
 # history
 
-> Sejarah command-line.
+> Tampilkan riwayat penugasan baris perintah (command-line).
 > Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
 
-- Menampilkan sejarah perintah-perintah dengan angka baris:
+- Tampilkan riwayat penugasan baris perintah beserta angka baris:
 
 `history`
 
-- Menampilkan 20 perintah-perintah terakhir (di `zsh` perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
+- Tampilkan 20 perintah tugas terakhir (di Zsh perintah ini menampilkan semua perintah-perintah sejak dari baris ke-20):
 
 `history {{20}}`
 
-- Menghapus sejarah perintah-perintah (hanya untuk sesi shell `bash` saat ini):
+- Tampilkan riwayat dengan format tanggal dan waktu tertentu (hanya tersedia dalam Zsh):
+
+`history -{{d|f|i|E}}`
+
+- Hapus seluruh riwayat perintah penugasan (hanya untuk sesi shell Bash saat ini):
 
 `history -c`
 
-- Menulis ulang file sejarah dengan sejarah sesi shell `bash` saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus sejarah):
+- Tulis ulang berkas dengan riwayat sesi shell Bash saat ini (seringkali dikombinasikan dengan `history -c` untuk menghapus riwayat):
 
 `history -w`
 
-- Menghapus entri sejarah pada offset tertentu:
+- Hapus entri riwayat pada offset tertentu:
 
 `history -d {{offset}}`

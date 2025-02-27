@@ -1,7 +1,7 @@
 # date
 
 > Setze die Systemzeit oder zeige sie an.
-> Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Zeige das aktuelle Datum im Format der eingestellten Locale an:
 
@@ -25,7 +25,7 @@
 
 - Zeige das aktuelle Datum im RFC-3339 Format (`YYYY-MM-DD hh:mm:ss TZ`) an:
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Setze das aktuelle Datum im Format `MMDDhhmmYYYY.ss` (`YYYY` und `.ss` sind optional):
 

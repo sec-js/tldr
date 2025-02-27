@@ -1,11 +1,7 @@
 # mkdir
 
 > Crée un répertoire.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/mkdir>.
-
-- Crée un répertoire dans le répertoire actuel ou dans un chemin donné :
-
-`mkdir {{répertoire}}`
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
 
 - Crée plusieurs répertoires dans le répertoire actuel :
 
@@ -13,4 +9,4 @@
 
 - Crée des répertoires récursivement (utile pour créer des répertoires imbriqués) :
 
-`mkdir -p {{chemin/vers/répertoire}}`
+`mkdir {{-p|--parents}} {{chemin/vers/répertoire}}`
